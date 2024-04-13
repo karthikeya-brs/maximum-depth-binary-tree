@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Maximum Depth Binary Tree</title>
+    <link rel="icon" href="assets/img/brs-logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+  </head>
+  <body>
+    
+    <header>
+      <div class="d-flex bg-gradient">
+        <div class="d-flex flex-grow-1">
+        
+          <div class="flex-grow-1">
+            <div class="ReactTitle ">
+              <h3>Maximum Depth Binary Tree</h3>
+            </div>
+            <div class="d-flex ps-3 align-items-center">
+              <div class="flex-grow-1">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" class="container" style="margin-bottom: 100px">
+      <h5 class="text-start">
+      Maximum Depth Binary Tree </h5>
+      <p class="text-start">
+        The maximum depth of a binary tree is the number of nodes from the root down to the furthest leaf node. In other words, it is the height of a binary tree.
+        Where n is the number of nodes. If you draw the tree out for the maximum depth for example 12 nodes you work out that the maximum depth can only be 4 if the tree is to remained balanced.</p>
+    
+        <p class="text-start">The maximum depth is 3 because there are 3 depths, or layers, to this tree. Those depths are highlighted in green, orange, and blue above, with their depth called out on the right. So, at it's core this problem deals with strategies of how to traverse a tree structure.</p>
+       
+        <h5>Maximum Depth of Binary Tree</h5>
+        <div>
+            <label for="treeInput">Enter binary tree nodes (comma separated):</label>
+            <input type="text" id="treeInput" placeholder="e.g., 3,9,20,null,null,15,7">
+            <button onclick="calculateMaxDepth()">Calculate</button>
+        </div>
+        <p id="maxDepthResult"></p>
+       
+    
+        </main>
+
+    <footer class="footer footer-dark">
+      <div class="d-flex justify-content-center px-5">
+        <div>
+          <button
+            onclick="setTheme('#1A4B84')"
+            class="theme-switch theme-switch-chathams_blue"
+          ></button>
+          <button
+            onclick="setTheme('#991E14')"
+            class="theme-switch theme-switch-tamarillo"
+          ></button>
+          <button
+            onclick="setTheme('#FEAD06')"
+            class="theme-switch theme-switch-yellow_sea"
+          ></button>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/JS/max depth binarytree.js"></script>
+    <script src=""></script>
+    <script src="assets/JS/theme.js" defer></script>
+  </body>
+</html>
